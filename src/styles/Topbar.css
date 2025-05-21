@@ -1,0 +1,58 @@
+.topbar-container {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-sizing: border-box;
+  background-color: #f96621;
+}
+
+/* Logo */
+.logo-img {
+  height: 60px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Search */
+.search-bar-wrapper {
+  max-width: 500px;
+  margin-left: 40px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .search-bar-wrapper {
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+  .logo-img {
+    height: 60px;
+  }
+}
+
+/* Icons */
+.icon-circle {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 50%;
+  color: #f96621;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.icon-circle:hover {
+  background-color: #f2f2f2;
+}

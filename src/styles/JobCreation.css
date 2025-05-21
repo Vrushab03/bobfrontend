@@ -1,0 +1,52 @@
+.job-creation-full {
+    margin-top: 70px;
+    padding: 24px;
+    gap: 24px;
+  }
+  
+  .left-form {
+    width: 70%;
+  }
+  
+  .right-chatbot {
+    width: 30%;
+    min-height: 400px;
+  }
+  
+  .drag-drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    color: #888;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: 0.2s ease;
+    min-height: 180px;
+  }
+  
+  .drag-drop-area:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .chat-placeholder {
+    height: 100%;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    padding: 12px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .btn-orange-filled {
+    background-color: #f96621;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .btn-orange-filled:hover {
+    background-color: #e25b1d;
+  }
+  

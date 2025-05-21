@@ -1,0 +1,85 @@
+/* Main Left Column Cards (1, 2, 3) */
+.dashboard-card {
+  height: calc((100vh - 100px) / 3); /* Adjust based on topbar height */
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Right Column Cards (4, 5, 6, 7) */
+.right-card {
+  height: calc((100vh - 100px) / 4);
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.right-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Inner stat boxes inside Job Postings Overview */
+.sub-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  height: 100%;
+  transition: 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.sub-card:hover {
+  background-color: #f1f1f1;
+}
+
+.stat-value {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+
+/* Solid orange button */
+.btn-orange-filled {
+  background-color: #f96621 !important;
+  color: white!important;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.btn-orange-filled:hover {
+  background-color: #e25b1d!important;
+  color: white!important;
+}
+
+/* Orange outline button */
+.btn-orange-outline {
+  background-color: white!important;
+  color: #f96621!important;
+  border: 2px solid #f96621!important;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.btn-orange-outline:hover {
+  background-color: #f96621;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .dashboard-card,
+  .right-card {
+    height: auto !important;
+  }
+
+  .sub-card {
+    margin-bottom: 10px;
+  }
+}
+
+
